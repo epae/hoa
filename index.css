@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 125%;
+    line-height: 1;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  main > + {
+    margin-top: .75rem;
+  }
+  
+  main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  
+  button {
+    font-size: 1.75em;
+    font-weight: 700;
+    background: prink;
+    color: white;
+    border: none;
+  
+    cursor: pointer;
+    transition: all .1s ease-out;
+  }
+  body {
+    background-color:rgb(215, 240, 242)  ;
+  }
+  
+  button:hover {
+    background: black;
+    color: white;
+  }
+  
+  button:focus, button:active {
+    outline: none;
+  }
+  
+  button:active {
+    background: blueviolet;
+  }
+  
+ #RD {
+    font-size: 4em;
+    color: #000;
+  }
+  
+  h2 {
+    color: rgb(65, 53, 55);
+    font-size: 4em;
+  }
